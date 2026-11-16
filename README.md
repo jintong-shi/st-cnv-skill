@@ -1,6 +1,6 @@
 # st-cnv-skill
 
-A Claude Agent Skill that recommends copy-number variation (CNV) inference tools
+An Agent Skill that recommends copy-number variation (CNV) inference tools
 and settings for spatial transcriptomics data. It is derived from a benchmark of
 11 CNV callers across synthetic and real tumor datasets.
 
@@ -49,9 +49,8 @@ intentionally withheld pending source verification.
 
 ## Companion R package
 
-The meta-cell aggregation pipeline referenced for sparse and high-resolution data
-(cell segmentation, RCTD deconvolution, meta-cell aggregation, InferCNV):
-https://github.com/jintong-shi/stMetaCell
+The end-to-end package for copy-number variation calling on sparse subcellular spaital transcriptomics data (eg, VisiumHD):
+https://github.com/jintong-shi/spMerge
 
 ## Citation
 
